@@ -1,5 +1,5 @@
 body {
-		background: #000000;
+		background-color:#2a2e41;
 		font-family: 'Rambla', sans-serif;
 		color: #ffffff;
 		font-weight: 400;
@@ -14,10 +14,10 @@ body {
 	.mohamed-page{padding-left: 30px;}
 	.my-page{padding-left: 10px;}
 		
-		h5,h3{ color: #F68338; margin-top: 20px;}
+		h5,h3{ color: #00c6ff; margin-top: 20px;}
 		.btn{ padding: 8px 20px;
 		cursor: pointer;
-		background: #F68338;
+		background: #00c6ff;
 		-webkit-appearance: none;
 		position: relative;
 		color: #fff;
@@ -25,14 +25,14 @@ body {
 		font-weight: 400;
 		display: inline-block;
 		border-radius: 0;
-		border: 1px solid #F68338;}
+		}
 		h2{ font-family: 'Tangerine', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
 }
 h1{ font-family: 'Tangerine', serif;
   font-size: 48px;
-  color:#F68338;
+  color:#00c6ff;
   text-shadow: 4px 4px 4px #aaa;
 }
 .mohamed-page{ text-align:center;}
@@ -53,8 +53,8 @@ h1{ font-family: 'Tangerine', serif;
 		div {
 		display: block;
 		}
-		span {color:#F68338;}
-		span:hover {color:#ffffff;}
+		span {color:#ffff;}
+		span:hover {color:#2a2e41;}
 		.video{margin-top: 5px;}
 		a{font-size: 16px; margin-left: 10px;}
 		
@@ -73,7 +73,7 @@ h1{ font-family: 'Tangerine', serif;
         bottom: 0;
         width: 2px;
         margin-left: -1px;
-        background-color: #F68338;
+        background-color: #00c6ff;
       }
 
       .timeline-element {
@@ -93,8 +93,8 @@ h1{ font-family: 'Tangerine', serif;
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        border: 2px solid #F68338;
-        background-color: #F68338;
+        border: 2px solid #00c6ff;
+        background-color: #00c6ff;
       }
 
       .timeline-element:nth-child(even)::before {
@@ -159,9 +159,9 @@ h1{ font-family: 'Tangerine', serif;
       }
 
 	footer {
-  background: #000000;
+ 
   color: white;
-  margin-top: 10px;
+ 
   text-align: center;
 }
  .feature-left:hover {
@@ -174,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b384c', end
 }
 .mainfooter{margin-bottom: 0px;}
 	footer {
-  background: #000000;
+  background-color: #2a2e43;
   color: white;
   text-align: center;
 }
@@ -186,13 +186,12 @@ footer a {
 }
 
 footer a:hover {
-  color: #FA944B;
+  color: #00c6ff;
   text-decoration: none;
 }
 
 .footer-bottom{ opacity: .60; color:#FFFFFF;font-size: 12px; border-top: 1px solid #FFFFFF; }
 .footer-middle {
-  padding-top: 2em;
   color: white;
 }
 
