@@ -12,12 +12,56 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<style type="text/css">
+			
+
+
+.line {
+      position: relative;
+      top: 50%;
+      width: 16em;
+      height:35px; 
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 16em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+		</style>
 		
 		<title>RESUME</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-xl navbar-dark "style="background-color:#00c6ff;">
-			<a href="#" class="navbar-brand"><img src="img/webb1.gif"style="width: 70px;height: 70px;border-radius: 50%"></a>
+		<header class="header sticky-top">
+		<nav class="navbar navbar-expand-xl navbar-dark "style="background-color:#5DADE2">
+			<a href="#" class="navbar-brand"><img src="img/webb1.gif"style="width: 60px;height: 60px;border-radius: 50%"></a>
 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 			<span class="navbar-toggler-icon"></span>
 			</button>
@@ -35,17 +79,18 @@
 				</div>
 			</div>
 		</nav>
-		
+		</header>
 		<!--Main container-->
 		<div class="container">
+			<div class="container my-5">
+			<p class="line anim-typewriter">Service som jag kan hjälper till</p>
 
-
-		
+		</div>
 			
 				
-				<div class="mohamed-page "style="margin-top: 40px;">
+				<div class="mohamed-page ">
 					
-					<h1 class="title font-weight-bold">Services<br><br>
+					<h1 class="title font-weight-bold">
 					<div class="embed-responsive embed-responsive-21by9 ">
 						<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
 							<source src="video/digi.mp4" type="video/mp4">
@@ -129,7 +174,7 @@
 								<div class="col-md-4 col-sm-6">
 								<!--Column1-->
 								<div class="footer-pad">
-									<h5>CONTACT INFO</h5>
+									<h5>Contact Info</h5>
 									<ul class="list-unstyled">
 										<li><a href="#">contact us</a></li>
 										<li><a href="#">azzmed777@gmail.com</a></li>

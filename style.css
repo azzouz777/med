@@ -10,7 +10,9 @@ body {
 		
 		
 		}
+nav{opacity: 0.9
 
+}
 	.mohamed-page{padding-left: 30px;}
 	.my-page{padding-left: 10px;}
 		
@@ -35,6 +37,20 @@ h1{ font-family: 'Tangerine', serif;
   color:#00c6ff;
   text-shadow: 4px 4px 4px #aaa;
 }
+#str {
+    display: flex;
+   height: auto;
+
+width:350px;
+text-align:center;
+   font-family: sans-serif;
+   font-size: 18px;
+   font-style: italic;
+   color: #fff;
+   font-weight: bold;
+    margin: auto;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+ }
 .mohamed-page{ text-align:center;}
 		.feature {
 		width: 90%;
@@ -53,8 +69,8 @@ h1{ font-family: 'Tangerine', serif;
 		div {
 		display: block;
 		}
-		span {color:#ffff;}
-		span:hover {color:#2a2e41;}
+		span {color:#000000;}
+		span:hover {color:#FFFFFF;}
 		.video{margin-top: 5px;}
 		a{font-size: 16px; margin-left: 10px;}
 		
@@ -167,10 +183,10 @@ h1{ font-family: 'Tangerine', serif;
  .feature-left:hover {
   opacity: 1;
   background: #4b384c;
-background: -moz-linear-gradient(-45deg, #4b384c 25%, #da5de2 100%);
-background: -webkit-linear-gradient(-45deg, #4b384c 25%,#da5de2 100%);
-background: linear-gradient(135deg, #4b384c 25%,#da5de2 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b384c', endColorstr='#da5de2',GradientType=1 );
+background: -moz-linear-gradient(-45deg, #4b384c 25%, #00ffff 100%);
+background: -webkit-linear-gradient(-45deg, #4b384c 25%,#00ffff 100%);
+background: linear-gradient(135deg, #4b384c 25%,#00ffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b384c', endColorstr='#00ffff',GradientType=1 );
 }
 .mainfooter{margin-bottom: 0px;}
 	footer {
