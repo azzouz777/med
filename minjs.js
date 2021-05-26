@@ -1,4 +1,4 @@
-var string = "Saknar ni en engagerad LIA praktikant inom webbutveckling?";
+var string = "Saknar ni en engagerad frontend utvecklare kombinerad med SEO och digital marknadsföring?";
 var str = string.split("");
 var el = document.getElementById('str');
 (function animate() {
